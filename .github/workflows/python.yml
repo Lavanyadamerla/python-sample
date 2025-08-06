@@ -45,7 +45,7 @@ jobs:
        run: python app.py
 
      - name: Run tests
-       run: pytest
+       run: pytest -s
 
      - name: Set output value
        id: set-output
